@@ -14,20 +14,24 @@
 <!-- header -->
 <header>
 <!-- navigation bar -->
-<nav class="navbar navbar-expand-lg bg-light navbar-light">
+<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
 	<!-- navbarbrand -->
-	<!--a href="#" class="navbar-brand  mb-0 h1 navbar-text"><img src="img\logo.png" alt=""></a-->
+	<a href="#" class="navbar-brand  mb-0 h1"><img class="logo" src="img\logo.png" alt=""></a>
 
 	<!-- collapsabale-button -->
-	<button class="navbar-toggler" data-toggle="collapse" data-target="#thetarget">
-		<span class="navbar-toggler-icon"></span>
+	<button class="navbar-toggler btn-sm" data-toggle="collapse" data-target="#thetarget">
+		<svg class="bi bi-three-dots-vertical" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  			<path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+		</svg>
+		<!-- if ham button -->
+		<!-- <span class="navbar-toggler-icon"></span> -->
 	</button>
 
 	<!-- navigation-links -->
 	<div id="thetarget" class="collapse navbar-collapse">
 		<ul class="navbar-nav ml-auto">
 			<!-- 1st dropdown -->
-			<li class="nav-item active dropdown navbar-text">
+			<li class="nav-item active dropdown">
 				<a href="#" class="nav-link dropdown-toggle" id="navbardropdown1" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">About Us</a>
 				<div class="dropdown-menu" aria-labelledby="navbardropdown3">
 					<a href="#" class="dropdown-item">Action-1</a>
@@ -37,7 +41,7 @@
 				</div>
 			</li>
 			<!-- 2nd dropdown -->
-			<li class="nav-item dropdown navbar-text">
+			<li class="nav-item dropdown">
 				<a href="#" class="nav-link dropdown-toggle" id="navbardropdown2" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Academics</a>
 				<div class="dropdown-menu" aria-labelledby="navbardropdown2">
 					<a href="#" class="dropdown-item">Action-1</a>
@@ -47,7 +51,7 @@
 				</div>
 			</li>
 			<!-- 3rd dropdown -->
-			<li class="nav-item dropdown navbar-text">
+			<li class="nav-item dropdown">
 				<a href="#" class="nav-link dropdown-toggle" id="navbardropdown3" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Departments</a>
 				<div class="dropdown-menu" aria-labelledby="navbardropdown3">
 					<a href="#" class="dropdown-item">Action-1</a>
@@ -57,7 +61,7 @@
 				</div>
 			</li>
 			<!-- 4th dropdown -->
-			<li class="nav-item dropdown navbar-text">
+			<li class="nav-item dropdown">
 				<a href="#" class="nav-link dropdown-toggle" id="navbardropdown4" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Facilities</a>
 				<div class="dropdown-menu" aria-labelledby="navbardropdown4">
 					<a href="#" class="dropdown-item">Action-1</a>
@@ -67,7 +71,7 @@
 				</div>
 			</li>
 			<!-- 5th dropdown -->
-			<li class="nav-item dropdown navbar-text">
+			<li class="nav-item dropdown">
 				<a href="#" class="nav-link dropdown-toggle" id="navbardropdown1" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">R&D</a>
 				<div class="dropdown-menu" aria-labelledby="navbardropdown3">
 					<a href="#" class="dropdown-item">Action-1</a>
@@ -77,19 +81,19 @@
 				</div>
 			</li>
 			<!-- normal link 1 -->
-			<li class="nav-item navbar-text">
+			<li class="nav-item">
 				<a href="#" class="nav-link">Gallery</a>
 			</li>
 			<!-- normal link 2 -->
-			<li class="nav-item navbar-text">
+			<li class="nav-item">
 				<a href="#" class="nav-link">Training&nbsp;and&nbsp;Placements</a>
 			</li>
 			<!-- normal link 3 -->
-			<li class="navbar-text nav-item">
+			<li class="nav-item">
 				<a href="#" class="nav-link">ANNOUNCEMENTS</a>
 			</li>
 			<!-- normal link 4 -->
-			<li class="navbar-text nav-item">
+			<li class="nav-item con">
 				<a href="#" class="nav-link">Contact Us</a>
 			</li>
 		</ul>
@@ -129,6 +133,14 @@
 	</a>
 </div>
 </header>
+<!-- jumbotron -->
+<div class="jumbotron jumbotron-fluid">	
+		<h1 class="display-3">Welcome to Geethanjali</h1>
+		<p class="display-6">Education is, without doubt, the single largest factor that shapes the destiny of a nation. It is the bringing together of the head, the heart and the mind, thereby developing an all round personality.</p>
+		<p class="display-6">
+			Geethanjali College of Engineering and Technology is equipped and geared to take on the responsibility of providing the student community with technical education on par with the latest advances in the field in a committed academic ambience and as we understand that acquiring a competency is not a one time event, but rather an ongoing process, the focus is on developing competencies in students for the future. What goes into making a great Institution, Geethanjali has it all.
+		</p>
+</div>
 
 <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
