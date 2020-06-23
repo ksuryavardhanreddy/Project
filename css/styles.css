@@ -66,14 +66,23 @@ hr.style4 {
 	.con{
 		display: none;
 	}
-	/*.contact-bar{
-		display: block;
-		color: #000!important;
-		font-size: 14px;
-		background-color: #ffffff;
-		padding: 
-	}*/
 }
-/*.nav-link{
-	font-size: 1.2em;
-}*/
+/*divider styles*/
+.divide
+{
+	display: block;
+	/*margin-top: 2vh;*/
+	height: 1px;
+}
+
+.divide-trans
+{
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.jumbotron{
+	margin-bottom: 0!important;
+	padding-bottom: 1rem;
+}
