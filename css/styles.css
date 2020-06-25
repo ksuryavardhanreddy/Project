@@ -4,7 +4,7 @@
 	height:80vh;
 }
 img.logo{
-	width: 10vw;
+	width: 4rem;
 }
 a.navbar-brand{
 	width: 5vw;
@@ -85,4 +85,13 @@ hr.style4 {
 .jumbotron{
 	margin-bottom: 0!important;
 	padding-bottom: 1rem;
+}
+.wel-sec{
+	background-color: #e9ecef;
+	margin-bottom: 0!important;
+	padding-bottom: 1rem;
+}
+.welcome-head{
+	padding-top: 1.2rem!important;
+	margin-bottom: 1rem!important;
 }
