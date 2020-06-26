@@ -1,10 +1,10 @@
 .img-slide
 {
-		width:100%;
+	width:100%;
 	height:80vh;
 }
 img.logo{
-	width: 4rem;
+	width: 3.2rem;
 }
 a.navbar-brand{
 	width: 5vw;
@@ -14,16 +14,6 @@ a.navbar-brand{
 	color:#000000;
 }
 
-@media (min-width: 992px) {
-	img.logo{
-		width: 4vw;
-	}
-}
-@media (min-width: 1200px){
-	img.logo{
-		width: 4vw;
-	}
-}
 nav.navbar{
 	background-color: #ffffff!important;
 }
@@ -34,35 +24,30 @@ nav.navbar{
 		height:50vh;
 	}	
 }
-.jumbotron {
-    padding: 3rem 2rem;
-}
+
 p.display-6{
 	margin-top: 16px!important;
 	margin-bottom: 16px!important;
 }
-hr.style4 {
-	border-top: 1px dotted #8c8b8b;
-}
+
 /*.display-3{
 		font-size: 2.5rem!important;
 }*/
-@media screen and (min-width:300px) and (max-width:778px){
+/*@media screen and (min-width:300px) and (max-width:778px){
 	.display-3{
 		font-size: 2.5rem;
 	}
 }
+
 @media screen and (min-width:779px) and (max-width:1050px){
 	.display-3{
 		font-size: 3rem;
 	}
-}
-.contact-bar{
-	display: none;
-}
+}*/
+
 
 /*disoriented "contact us" link*/
-@media screen and (min-width:992px) and (max-width:1106px){
+@media screen and (min-width:992px) and (max-width:1400px){
 	.con{
 		display: none;
 	}
@@ -71,7 +56,6 @@ hr.style4 {
 .divide
 {
 	display: block;
-	/*margin-top: 2vh;*/
 	height: 1px;
 }
 
@@ -82,10 +66,7 @@ hr.style4 {
 	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
 }
 
-.jumbotron{
-	margin-bottom: 0!important;
-	padding-bottom: 1rem;
-}
+
 .wel-sec{
 	background-color: #e9ecef;
 	margin-bottom: 0!important;
@@ -95,3 +76,13 @@ hr.style4 {
 	padding-top: 1.2rem!important;
 	margin-bottom: 1rem!important;
 }
+h2.display-4{
+	font-size: 2.5rem;
+}
+h1.display-4 {
+    font-size: 2.5rem;
+    font-weight: 350;
+    line-height: 1.2;
+}
+
+
