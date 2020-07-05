@@ -1,3 +1,9 @@
+.no-focusOutline:focus
+{
+	outline: none;
+}
+
+
 .img-slide
 {
 	width:100%;
