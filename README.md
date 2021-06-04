@@ -1,2 +1,2 @@
-# Prims Visualizer
+# Project
  
